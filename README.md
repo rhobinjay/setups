@@ -17,7 +17,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
        git config --global user.name "rhobinjay"
        git config --global user.email "rhobinjayfaigones@gmail.com"
 ```
-    check info by:
+check info by:
 ```
         git config --global --list
 ```
