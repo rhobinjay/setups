@@ -35,13 +35,13 @@ https://www.sublimetext.com/3
 	- Super Putty: https://www.puttygen.com/superputty
 2. Configure:
 	- Window > Lines of scrollback: 100000
-		Appearance:
+		- Appearance:
 			- Font: Source Code Pro, Semi-bold, 12
 			- Font Quality: ClearType
-		Colours:
+		- Colours:
 			- Default Background: 50, 50, 50
 	- Connection:
-		Data:
-			Auto-login username: <username>
+		- Data:
+			- Auto-login username: <username>
 
 		
