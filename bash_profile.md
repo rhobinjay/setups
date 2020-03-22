@@ -1,4 +1,5 @@
 Get settings from: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
+
 extras:
 ```sh
 alias v='vim'
