@@ -10,17 +10,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 3. Download and install Ubuntu App
 
 ## Git
-1. Download and Install git
-	https://git-scm.com/downloads
-2. Add the following info:
-```
-       git config --global user.name "rhobinjay"
-       git config --global user.email "rhobinjayfaigones@gmail.com"
-```
-check info by:
-```
-        git config --global --list
-```
+https://github.com/rhobinjay/setups/blob/master/git.md
 
 ## Python
 1. Download and Install python
