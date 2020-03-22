@@ -28,3 +28,10 @@ https://www.sublimetext.com/3
 		- SideBarEnhancements
 		- Anaconda
 3. Apply the following settings:
+
+## Putty
+1. Download and install the following:
+	- Putty: https://www.putty.org/
+	- Super Putty: https://www.puttygen.com/superputty
+2. Configure:
+	- Font: Source Code Pro, Semi-bold, 12
