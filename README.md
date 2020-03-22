@@ -33,7 +33,7 @@ https://www.sublimetext.com/3
 1. Download and install the following:
 	- Putty: https://www.putty.org/
 	- Super Putty: https://www.puttygen.com/superputty
-2. Configure:
+2. Configure Putty:
 	- Window > Lines of scrollback: 100000
 		- Appearance:
 			- Font: Source Code Pro, Semi-bold, 12
@@ -43,5 +43,5 @@ https://www.sublimetext.com/3
 	- Connection:
 		- Data:
 			- Auto-login username: <username>
-
+3. Import settings from Putty to SuperPutty
 		
