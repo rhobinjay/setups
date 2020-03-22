@@ -42,6 +42,6 @@ https://www.sublimetext.com/3
 			- Default Background: 50, 50, 50
 	- Connection:
 		- Data:
-			- Auto-login username: <username>
+			- Auto-login username: \<username\>
 3. Import settings from Putty to SuperPutty
 		
