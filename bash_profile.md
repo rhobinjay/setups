@@ -1,3 +1,6 @@
+Get settings from: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
+extras:
+```sh
 alias v='vim'
 alias ll="ls -al -h --color=auto"
 alias dirsize="du -sh"
@@ -22,3 +25,4 @@ unzip2() {
 mkdir2() {
     mkdir -p $1 && cd "$_"
 }
+```
