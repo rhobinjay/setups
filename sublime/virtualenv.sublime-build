@@ -1,0 +1,5 @@
+{
+    "cmd": ["C:/Users/Rhobin/Projects/python_test/venv/Scripts/python.exe", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "quiet": true
+}
