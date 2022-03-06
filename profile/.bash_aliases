@@ -1,5 +1,9 @@
-alias pro='vim ~/.bash_profile'
-alias repro='source ~/.bash_profile'
+#############################################################
+# Rhobin alias definitions
+#############################################################
+alias proa='vim ~/.bash_aliases'
+alias reproa='source ~/.bash_aliases'
+
 alias v='vim'
 alias vdiff='vimdiff'
 alias ll="ls -alhG"
@@ -8,6 +12,21 @@ alias tdir="ll -t -r"
 alias gitlog='git log --all --decorate --oneline --graph'
 alias gs='git status'
 #alias tree="find . -print | sed -e 's;/*/;|;g;s;|; |;g' | grep -v git"
+
+pro() {
+    if   [ -f ~/.bashrc ]; then vim ~/.bashrc;
+    elif [ -f ~/.bash_profile ]; then vim ~/.bash_profile;
+    else echo "Profile not found. Please check and setup this alias manually.";
+    fi
+
+}
+
+repro() {
+    if   [ -f ~/.bashrc ]; then source ~/.bashrc;
+    elif [ -f ~/.bash_profile ]; then source ~/.bash_profile;
+    else echo "Profile not found. Please check and setup this alias manually.";
+    fi
+}
 
 mkdir2() {
     mkdir -p $1 && cd "$_"
@@ -41,3 +60,5 @@ pwd2 () {
     echo $cur_dir/$1
 }
 
+#############################################################
+#############################################################
