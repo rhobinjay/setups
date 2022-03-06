@@ -1,5 +1,5 @@
-execute pathogen#infect()
-filetype plugin indent on
+"execute pathogen#infect()
+"filetype plugin indent on
 
 "-------------------
 " usual vim stuff
@@ -59,7 +59,7 @@ syntax on
 "colorscheme nofrils-dark
 "let g:nofrils_heavycomments=1
 
-colorscheme molokai
+colorscheme predawn
 
 set t_Co=256
 
@@ -69,7 +69,7 @@ set t_Co=256
 
 " prevents pathogen from self sourcing,
 " since it's in the bundle folder
-let g:pathogen_disabled = ['pathogen'] 
+" let g:pathogen_disabled = ['pathogen'] 
 
 " for vim-notes
 let g:notes_directories = ['~/notes/vim-notes']
