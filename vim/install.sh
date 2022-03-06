@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# Author : Rhobin Jay Faigones <rhobinjayfaigones@gmail.com>
+# Purpose: Setup vim on linux and mac
+# ==========================================================
 
 # INSTALL VIM
 if [ ! $(command -v vim) ]; then
